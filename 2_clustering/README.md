@@ -753,6 +753,11 @@ the catalogue as it stood when Chapter 3 began.
 
 ## 10. Reproducibility
 
+The run directory described in this section belongs to the working project rather than to this
+repository, which carries the code and the written account alone. All seven notebooks are stored
+executed, so every result reported above is readable here exactly as it was produced; the frozen
+artifacts they read travel with the thesis deposit instead.
+
 Each notebook asserts that it runs from this folder and writes to a directory suffixed by its
 `RUN_TAG`, so a re-run cannot overwrite the frozen artifacts it reads. Execution order is the
 reading order, 1 to 7. Notebook 5 is the slow one, because it refits the clustering 25 times. All

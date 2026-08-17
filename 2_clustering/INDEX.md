@@ -3,6 +3,12 @@
 Nothing here is a copy of code or data. This file points at the real artifacts, so there is only
 ever one version of each.
 
+Those artifacts belong to the working project and are not distributed in this repository, which
+carries the code and the written account alone. The chapter's seven notebooks are stored executed,
+so every number this index accounts for is readable in them; what the index adds is the record of
+which artifact stands behind which claim, and the run directory it describes travels with the
+thesis deposit.
+
 **Run directory.** Every short path below is relative to
 
 ```

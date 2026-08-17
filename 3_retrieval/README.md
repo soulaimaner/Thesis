@@ -547,6 +547,11 @@ five volumes carry no year, so no chronological claim can rest on filenames alon
 
 ## 10. Reproducibility
 
+The tables named in this section belong to the working project rather than to this repository,
+which carries the code and the written account alone. All three notebooks are stored executed, so
+every result reported above is readable here exactly as it was produced; the frozen occurrence and
+retrieval tables they read travel with the thesis deposit instead.
+
 `_tools/make_class_work_matrix.py` rebuilds the class-by-work appendix table of the thesis directly
 from `occurrence_v1/occurrence_by_class.csv` and `occurrence_by_class_work.csv`, asserting the two
 against each other so the appendix cannot disagree with the summary it is drawn from. It runs from

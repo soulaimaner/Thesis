@@ -551,6 +551,11 @@ benchmark's accuracy.
 
 ## 8. Reproducibility
 
+The paths named in this section belong to the working project rather than to this repository, which
+carries the code and the written account alone. Both notebooks are stored executed, so every table
+and figure reported above is readable here exactly as it was produced; the frozen tables, protocol
+records and helper-script inputs they read travel with the thesis deposit instead.
+
 The primary executable record is `1_SegmentationBenchmark.ipynb`; full-corpus extraction is
 performed in `2_CandidateExtraction.ipynb`, with isolated outputs under
 `1_segmentation_outputs/otsu_g3_area40_pad3_v1/`. Frozen configuration files for all three compared

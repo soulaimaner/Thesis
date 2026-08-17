@@ -568,6 +568,11 @@ measured.
 
 ## 10. Reproducibility
 
+The per-target directories named in this section belong to the working project rather than to this
+repository, which carries the code and the written account alone. All four notebooks are stored
+executed, so every result reported above is readable here exactly as it was produced; the
+prediction, fold and review tables they read travel with the thesis deposit instead.
+
 Four notebooks form the executable record, and each runs from this folder, resolving every path
 relative to it. Training is driven by scripts in `_tools/`, called rather than duplicated, since
 a notebook is a poor place for a job that trains 208 models.
