@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / backup
+*~
+*.bak
+*.bak_*
+
+# Corpus, catalogue and result trees.
+#
+# This repository holds the code and the written account of the work: the notebooks with their
+# outputs intact, a README per chapter, and the scripts behind each reported figure. It does not
+# distribute the corpus scans, the crop store, the DINOv2 embeddings, the fleuron catalogue, the
+# trained detector weights, or the frozen result trees those stages wrote.
+#
+# Nothing reported is lost by their absence. Every notebook is stored executed, so each table,
+# figure and printed result is readable here exactly as it was produced. The scripts under
+# _tools/ are included because the code behind a reported artifact belongs with the account of
+# it, but most of them read a result tree and so are reference rather than runnable.
+Images/
+images suppl/
+*.pt
+Fleurons/
+all_regions_outputs/
+feature_extraction_outputs/
+1_segmentation_outputs/
+2_clustering_outputs/
+3_retrieval_outputs/
+4_detection_outputs/
+annotations/
+report/

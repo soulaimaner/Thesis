@@ -1,0 +1,2 @@
+catalogue_classes_mapped,catalogue_crops_mapped,cross_format_classes,cross_format_pairs,median_cosine_raw,median_cosine_binarised,maximum_cosine_raw,pairs_above_threshold_raw,pairs_above_threshold_binarised,classes_with_higher_median_after_binarisation,operating_threshold
+83,6813,50,1001151,0.38501635,0.8303137,0.9150101,1,128102,50,0.9

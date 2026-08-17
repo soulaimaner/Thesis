@@ -1,0 +1,2 @@
+our_extraction_total,frozen_extraction_total,clustering_input,clustered_crops_present_in_frozen_config,clustered_crops_absent_from_frozen_config,frozen_only_boxes_below_minside24,frozen_only_boxes_at_or_above_minside24
+30804,40397,21750,21489,261,9051,945

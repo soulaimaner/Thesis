@@ -1,0 +1,46 @@
+# Environment used to produce every result in this package.
+# Python 3.10.19. Versions are the ones the notebooks were executed under,
+# read from the running interpreter rather than transcribed by hand.
+#
+#     python -m venv .venv && source .venv/bin/activate
+#     pip install -r requirements.txt
+#
+# The two torch wheels below are CUDA 12.1 builds and come from the PyTorch
+# index, not PyPI:
+#
+#     pip install torch==2.5.1 torchvision==0.20.1 \
+#         --index-url https://download.pytorch.org/whl/cu121
+#
+# Only the SAM-B stage of Chapter 1 requires a GPU. Every other analysis in
+# this package runs on CPU, and torch is not imported at all by the notebooks
+# that can be re-run from the included data.
+
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+scikit-image==0.25.2
+matplotlib==3.10.8
+Pillow==12.0.0
+tqdm==4.67.1
+umap-learn==0.5.11
+
+# Imported as `cv2`. Install only this OpenCV distribution: the authoring
+# environment also had `opencv-python==4.11.0.86` present, and the headless
+# build below is the one that actually resolved at import time (cv2 4.13.0).
+opencv-python-headless==4.13.0.92
+
+# Chapter 1 only, for the SAM-B comparison baseline.
+torch==2.5.1
+torchvision==0.20.1
+ultralytics==8.4.9
+
+# Not imported directly by any shipped notebook or script. Pinned because
+# ultralytics depends on it and reads the per-target data.yaml through it, so the
+# Chapter 4 training and validation code resolves its dataset definitions with it.
+PyYAML==6.0.3
+
+# Running the notebooks.
+ipython==8.38.0
+ipykernel==7.1.0
+nbformat==5.10.4
