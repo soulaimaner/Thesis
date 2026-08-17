@@ -15,7 +15,7 @@ This is the third of four stages in the ornament-identification pipeline:
 |---|---|
 | **Input** | Verified catalogue identities and 14,745 embedded crops outside the catalogue |
 | **This chapter** | Rank those existing crops against known identities for human confirmation |
-| **Output** | 696 reviewer-confirmed retrieval proposals, of which 693 remain in the consolidated catalogue |
+| **Output** | 696 reviewer-confirmed retrieval proposals; 698 retrieval-derived crops in the consolidated catalogue after curation and a later purity split |
 | **Stopping point** | Retrieval cannot see an impression for which segmentation produced no usable crop |
 | **Next** | Detection returns to all 613 scans and proposes locations independently of crop extraction; Notebook 3 then recounts the completed catalogue |
 

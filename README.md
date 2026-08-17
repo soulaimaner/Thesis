@@ -53,7 +53,8 @@ the candidate methods disagree.
 
 **3. Retrieval** ([`3_retrieval/`](3_retrieval/)) asks where else a known design appears. Ranking
 14,745 embedded crops outside the catalogue against verified identities produced 696 reviewer
-confirmed proposals, of which 693 remain in the consolidated catalogue. A pre-registered success
+confirmed proposals; after curation and a later purity split, 698 retrieval-derived crops stand in
+the consolidated catalogue. A pre-registered success
 criterion was set before the run and was not met; the chapter reports that outcome rather than
 restating the criterion afterwards.
 
@@ -84,7 +85,7 @@ Used identically across all four chapters. The human review labels in the data (
 |---|---|
 | **composite ornament** | The assembled decorative unit: headpiece, tailpiece, bandeau. One scan in this corpus is one composite ornament. |
 | **fleuron** / **element** | One individual piece of type composing it. One catalogue class is one fleuron. |
-| **scan** | One corpus image. These are photographs of individual ornaments, not book pages; median 560 × 348 px. |
+| **scan** | One corpus image. These are photographs of individual ornaments, not book pages; median 553 × 348 px. |
 | **candidate** | A region the segmentation stage proposes as possibly containing a fleuron. |
 | **crop** | A candidate cut out as an image file, and the unit the feature extractor embeds. |
 | **impression** | One printed occurrence of a fleuron: one crop a human confirmed belongs to a catalogue class. |
